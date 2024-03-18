@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Simple Site</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: rgb(48, 47, 47);
+      color: white;
+      position: relative;
+    }
+    header {
+      text-align: center;
+      padding: 20px 0;
+    }
+    .gray-bar {
+      background-color: gray;
+      padding: 10px;
+    }
+    .gray-bar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    .gray-bar li {
+      display: inline;
+      margin-right: 10px;
+    }
+    .welcome-bar {
+      border-top: 2px solid gray;
+      background-color: white;
+      padding: 20px;
+      margin-top: 0px;
+    }
+    .welcome-bar h1 {
+      color: black;
+      border-bottom: 0px solid black;
+      padding-bottom: 10px;
+    }
+    .welcome-bar h5 {
+      color: black;
+    }
+    .footer-bar {
+      text-align: center;
+      background-color: rgb(48, 47, 47);
+      padding: 10px 0;
+      color: white;
+      position: fixed;
+      bottom: 8;
+      width: 100%;
+    }
+    .sidebar {
+      background-color: lightgray;
+      color: black;
+      padding: 20px;
+      width: 300px;
+      position: absolute;
+      top: 165px; 
+      right: 10px;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Simple Site</h1>
+  </header>
+  <nav class="gray-bar">
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+      <li>Services</li>
+      <li>Contact</li>
+    </ul>
+  </nav>
+  <main>
+    <div class="welcome-bar">
+      <h1>Welcome to my website</h1>
+      <h5>This is paragraph in the main content area</h5>
+    </div>
+   
+    <div class="sidebar">
+      <h2>Sidebar Title</h2>
+      <p>Some sidebar content here.</p>
+    </div>
+ 
+    <footer>
+      <div class="footer-bar">
+        <p>Footer Information</p>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
